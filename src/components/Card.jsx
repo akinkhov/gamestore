@@ -2,7 +2,7 @@ import React from 'react';
 import plus from './img/plus.svg';
 import heard from './img/heardlike.svg';
 import '../index.scss'; 
-import svglogo from '../logo.svg';
+import svglogo from './img/logo.svg';
 
 
 

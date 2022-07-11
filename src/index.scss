@@ -49,6 +49,7 @@ header{
   border: 1px solid rgb(218, 214, 214);
   padding: 30px;
   width: 210px ;
+  height: 275px;
   border-radius: 8px;
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
   &:hover{
@@ -94,6 +95,7 @@ header{
   padding: 30px;
 }
 .overlay{
+  display: none;
   position: absolute;
   left: 0;
   top: 0;
