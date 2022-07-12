@@ -1,0 +1,67 @@
+[
+    {
+      "id": 0,
+      "imageUrl": "https://static.gabestore.ru/product/fwJau3D-MDDj6d-7K2DQKOz-KrpZ5EXG.jpg",
+      "title": "FALLOUT 4",
+      "price": 803,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://static.gabestore.ru/product/_F7gtq46f9szPk5yTwfrSPqAb0Xo3T-h.jpg",
+      "title": "METRO EXODUS",
+      "price": 245,
+      "category": 0,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://static.gabestore.ru/product/nS7_izg5bnvhfRtoInMrTXMlfrkfamy_.jpg",
+      "title": "MOUNT & BLADE II: BANNERLORD",
+      "price": 295,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://static.gabestore.ru/product/Vz0k6Ae_Imt7RafKLek060XwxAcwLhkO.jpg",
+      "title": "THE ELDER SCROLLS V: SKYRIM",
+      "price": 2599,
+      "category": 0,
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://static.gabestore.ru/product/8jX6MzHMmn6rfgvXcaWkSRB2DN_kxPV_.jpg",
+      "title": "TITAN QUEST",
+      "price": 415,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://static.gabestore.ru/product/A_erLEsdUulTcQ6b5GijAx94c_uDXjm2.jpg",
+      "title": "FOR HONOR",
+      "price": 580,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://static.gabestore.ru/product/g5E7T6S1Sb4pMXWHaYnhDYa5mXYLifZi.jpg",
+      "title": "METAL GEAR RISING",
+      "price": 675,
+      "category": 3,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://static.gabestore.ru/product/DA0Sw1Ctg36KcQO8OAo0IsDwZmDgzQ6H.jpg",
+      "title": "DARK SOULS 3",
+      "price": 450,
+      "category": 3,
+      "rating": 10
+    }
+      
+  ]
