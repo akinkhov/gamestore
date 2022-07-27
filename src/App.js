@@ -1,34 +1,39 @@
 
 import './App.scss';
-import Card from './components/Card';
-import Categories from './components/Categories';
+
 import Header from './components/Header';
 import Overlay from './components/Overlay';
-import Search from './components/Search';
-import games from './assets/games.json';
+import React from 'react';
+import Home from './pages/Home';
+import { Route, Routes } from 'react-router-dom';
+import NotFound from './pages/NotFound';
+import Cart from './pages/Cart';
+
+
+export const SearchContext = React.createContext();
 
 
 
 
-function App() {
+function App() { 
+  const[searchValue, setSearchValue] = React.useState('');
+  
   return (
     <div className="wrapper clear">
+      <SearchContext.Provider value={{searchValue, setSearchValue}}>
       <Overlay/>  
-      <Header/>
-      <div className='content p-40'>
-        <h1>games</h1>
-          <Search/>
-          </div>
-          <Categories/>
+      
+      <Header />
+        
+        <Routes>
+          <Route path='/' element={<Home searchValue={searchValue}/>} />
+          <Route path='/Cart' element={<Cart/>} />
+          <Route path='*' element={<NotFound/>} />
+           
 
-          <div className='d-flex justify-between m-40'>
-
-            {
-                  games.map((obj) => (
-                  <Card key={obj.id} {...obj}/> ) )
-            }
-          
-          </div>
+        </Routes>
+        
+        </SearchContext.Provider>
           </div>
   );
 }

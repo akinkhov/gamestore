@@ -1,0 +1,34 @@
+.pages {
+    
+    li {
+        padding-top: 15px; ;
+        display: inline-block;
+  
+      a {
+        text-align: center;
+        width: 45px;
+        line-height: 42px;
+        height: 45px;
+        border: 1px solid #8a9297;
+        border-radius: 15px;
+        margin-right: 10px;
+        cursor: pointer;
+        display: inline-block;
+        color: #164766 ;
+  
+        &:hover {
+          background-color:#194a69;
+          color: #fff;
+        }
+      }
+    }
+  
+    :global {
+      .selected {
+        a {
+          background-color: #c6e6fa;
+          color: rgb(136, 135, 135);
+        }
+      }
+    } 
+  }
