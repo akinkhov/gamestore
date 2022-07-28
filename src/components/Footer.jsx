@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
             <div className='phantom' />
-            <div className='footer'> GAMESTORE {(new Date().getFullYear())}
+            <div className='footer'> GAMESTORE 
             <img src={svglogo} width={25} height={25} alt='logosvg'/>
            
             </div>

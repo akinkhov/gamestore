@@ -33,7 +33,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home searchValue={searchValue}/>} />
           <Route path='/Cart' element={<Cart/>} />
-          <Route path = '/GameCard' element={<GameCard />}></Route>
+          <Route path = '/GameCard' element={<GameCard />}/>
           <Route path='*' element={<NotFound/>} />
            
 
