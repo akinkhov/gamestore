@@ -7,8 +7,8 @@ import Home from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import NotFound from './pages/NotFound';
 import Cart from './pages/Cart';
-import GameCard from './components/gameCard/GameCard';
-import Footer from './components/Footer';
+
+
 
 
 
@@ -33,12 +33,12 @@ function App() {
         <Routes>
           <Route path='/' element={<Home searchValue={searchValue}/>} />
           <Route path='/Cart' element={<Cart/>} />
-          <Route path = '/GameCard' element={<GameCard />}/>
+          
           <Route path='*' element={<NotFound/>} />
            
 
         </Routes>
-        <Footer/>
+        
   </SearchContext.Provider>
           </div>
   );
